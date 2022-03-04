@@ -10,18 +10,18 @@
  *
  * @link              howatsonco.com.au
  * @since             1.0.0
- * @package           hc-gravity-forms-sync
+ * @package           hc-gravityforms-sync
  *
  * @wordpress-plugin
  * Plugin Name:       H+C Gravity Forms Sync
- * Plugin URI:        https://github.com/howatsonco/hc-gravity-forms-sync
+ * Plugin URI:        https://github.com/howatsonco/hc-gravityforms-sync
  * Description:       H+C Gravity Forms Sync
  * Version:           1.0.1
  * Author:            Howatson + Co
  * Author URI:        howatsonco.com.au
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       hc-gravity-forms-sync
+ * Text Domain:       hc-gravityforms-sync
  */
 
 use HC\GravityFormsSync\Sync;

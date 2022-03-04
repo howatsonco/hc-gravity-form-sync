@@ -1,5 +1,5 @@
 {
-    "name": "hc/gravity-forms-sync",
+    "name": "hc/gravityforms-sync",
     "description": "Gravity form JSON syncing for version control.",
     "type": "wordpress-plugin",
     "license": "gpl-2.0-or-later",
