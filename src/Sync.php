@@ -104,6 +104,10 @@ final class Sync
     $files = $this->scan();
 
     foreach ($files as $id => $file) {
+      if (!is_readable($file)) {
+        die("Cannot read Gravity Forms JSON file.");
+      }
+
       $form_data = json_decode(file_get_contents($file), true);
 
       if (!empty($form_data) && isset($form_data)) {
@@ -144,7 +148,7 @@ final class Sync
     $form_id = is_numeric($form) ? $form : $form['id'];
 
     if (!is_writable($this->path)) {
-      return false;
+      die("Cannot write Gravity Forms JSON file.");
     }
 
     $form = \GFAPI::get_form($form_id);
