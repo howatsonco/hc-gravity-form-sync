@@ -8,4 +8,4 @@ A plugin for storing Gravity Forms in JSON for easy version control. Made with l
 2. Create a folder labelled `gf-json` in your theme folder.
 3. Done!
 
-As you create forms, update them, and delete them, the JSON files in the `gf-json` folder will be updated automatically.
+As you create, update, or delete forms, JSON files in the `gf-json` folder will be modified automatically.

@@ -35,15 +35,14 @@ if (!defined('HCGFS_PLUGIN_FILE')) {
 	define('HCGFS_PLUGIN_FILE', __FILE__);
 }
 
-require dirname( __FILE__ ) . '/vendor/autoload.php';
+require dirname(__FILE__) . '/vendor/autoload.php';
 
 /**
  * Returns the main instance of HCGFS to prevent the need to use globals.
  *
  * @return GravityFormsSync
  */
-function HCGFS()
-{
+function HCGFS() {
   return Sync::instance();
 }
 
