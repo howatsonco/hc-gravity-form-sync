@@ -3,6 +3,7 @@
     "description": "Gravity form JSON syncing for version control.",
     "type": "wordpress-plugin",
     "license": "gpl-2.0-or-later",
+    "version": "1.0.2",
     "autoload": {
         "psr-4": {
             "HC\\GravityFormsSync\\": "src/"

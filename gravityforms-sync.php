@@ -16,7 +16,7 @@
  * Plugin Name:       H+C Gravity Forms Sync
  * Plugin URI:        https://github.com/howatsonco/hc-gravityforms-sync
  * Description:       H+C Gravity Forms Sync
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Howatson + Co
  * Author URI:        howatsonco.com.au
  * License:           GPL-2.0+
