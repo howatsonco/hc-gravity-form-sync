@@ -36,6 +36,7 @@ final class Sync
   public function register_hooks()
   {
     add_action("gform_after_save_form", array($this, "export"), 10, 2);
+    add_action("gform_post_update_form_meta", array($this, "update_form_meta"), 10, 3);
     add_action("gform_post_form_activated", array($this, "export"), 10, 2);
     add_action("gform_post_form_deactivated", array($this, "export"), 10, 2);
     add_action("gform_after_delete_form", array($this, "remove"), 10, 2);
@@ -137,6 +138,12 @@ final class Sync
         return;
       }
     }
+  }
+
+  public function update_form_meta($form_meta, $form_id, $meta_name) {
+    return $this->export(array(
+      'id' => $form_id
+    ));
   }
 
   /**
